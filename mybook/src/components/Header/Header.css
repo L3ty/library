@@ -1,0 +1,40 @@
+
+.navbar {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+.input-wrapper {
+    display: flex;
+    align-items: center; 
+    justify-content:space-between;
+    width: 700px; 
+    border: 1px solid;
+    border-radius:20px;
+    padding: 10px;
+    border-color: #218288;
+}
+
+.input-wrapper input {
+    flex: 1;
+    background-color:transparent;
+    border:none;
+    padding:3px;
+    font-size:16px;
+}
+
+.input-wrapper input:focus-visible {
+    outline:none
+}
+
+.sidebar{
+    display:flex;
+    justify-content:space-around;
+    width: 200px;
+    height:30px;
+}
+.sidebar img {
+    cursor:pointer;
+}
