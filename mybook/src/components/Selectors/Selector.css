@@ -1,0 +1,42 @@
+.homeSelectors { 
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    padding: 20px ;
+}
+
+.selectorSection {
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.selectorName {
+    display:flex;
+    gap:40px;
+}
+
+.selectorName a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #218288;;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #218288;
+    transition: background-color 0.3s, color 0.3s;
+}
+.selectorName a:hover {
+    background-color:#218288;
+    color: #fff;
+}
+
+.viewSelect {
+    background-color: #218288;
+    padding:10px;
+    width:70px;
+    display:flex;
+    justify-content:space-around;
+    border-radius: 15px;
+}
